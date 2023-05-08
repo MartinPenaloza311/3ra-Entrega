@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM SANS;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 100% ;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: black;
+}
+
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+    color: rgb(31, 27, 27);
+}
+
+.hero-info p > span {
+    font-weight: 800;
+}
+
+.hero-info a {
+    color: white;
+    background-color: black;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+
+.boton-container a:nth-last-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.boton-container a {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.hero-card img {
+    width: 500px;
+    height: 400px;
+    margin: 0px 100px 0px 100px;
+    border-radius: 10px;
+}
+
+/* info */
+
+#info {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.hero-about-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-about-text h3 {
+    font-size: 40px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-about-text p {
+    font-size: 20px;
+    width: 80%;
+    min-width: 500px;
+    text-align: center;
+}
